@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/patriciacraciun/ci_cd_lab:latest
+          image: ghcr.io/patriciacraciun/ci_cd_lab:sha256:c79866b749b40b58b4de1218358beac70c52bae2888e825c478e3dbee4486db7
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
