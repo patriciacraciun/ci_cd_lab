@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-### Install Argo CD in k8s
+###   Install Argo CD in k8s
 
 ```bash
 kubectl create namespace argocd
